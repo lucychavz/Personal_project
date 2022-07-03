@@ -132,34 +132,37 @@
     <fieldset>
       <legend> Contactame llenado todos los campos</legend>
 
-      <div>
-        <label>Nombre</label>
-        <input type="Text" placeholder="Nombre">
+      <div class="contenedor-campos">
+        <div class=campo>
+          <label>Nombre</label>
+          <input class="input-text" type="Text" placeholder="Nombre">
+        </div>
+
+        <div class=campo>
+          <label> Telefono</label>
+          <input class="input-text" type="number" placeholder="Tu telefono">
+        </div>
+
+        <div class=campo>
+          <label> Correo</label>
+          <input class="input-text" type="email" placeholder="Mail">
+        </div>
+
+        <div class=campo>
+          <label>Mensaje</label>
+          <textarea class="input-text"></textarea>
+        </div>
       </div>
 
-      <div>
-        <label> Telefono</label>
-        <input type="number" placeholder="Tu telefono">
-      </div>
-
-      <div>
-        <label> Correo</label>
-        <input type="email" placeholder="Mail">
-      </div>
-
-      <div>
-        <label>Mensaje</label>
-        <textarea></textarea>
-      </div>
-      <div>
-        <input type="submit">Enviar</button>
+      <div class="alinar-derecha flex">
+        <input class="boton w-100" type="submit" value="Enviar">
       </div>
 
 
     </fieldset>
   </form>
 
-  <footer>
+  <footer class="footer">
     <p>Todos los derechos reversados ©Lucy Chavez Freelancer</p>
   </footer>
 
